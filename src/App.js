@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 
-  const [color,setColor]= useState("Red");
+  const [color,setColor]= useState("Green");
 
   function inputChange(e){
     console.log(e.target.value);
